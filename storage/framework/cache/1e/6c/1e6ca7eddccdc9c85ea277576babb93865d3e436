@@ -1,0 +1,44 @@
+1588227237a:1:{s:11:"product.htm";a:12:{s:8:"fileName";s:11:"product.htm";s:7:"content";s:671:"title = "Product"
+url = "/product/:slug/:variant?"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/product/:slug/:variant?"
+
+[product]
+product = ":slug"
+variant = ":slug"
+
+[wishlistButton]
+==
+{% component 'product' %}
+
+{% put styles %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css">
+{% endput %}
+{% put scripts %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-fancybox="product"]').fancybox({
+                loop: true
+            });
+        })
+    </script>
+{% endput %}
+";s:5:"mtime";i:1587113586;s:6:"markup";s:464:"{% component 'product' %}
+
+{% put styles %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css">
+{% endput %}
+{% put scripts %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-fancybox="product"]').fancybox({
+                loop: true
+            });
+        })
+    </script>
+{% endput %}";s:4:"code";N;s:5:"title";s:7:"Product";s:3:"url";s:24:"/product/:slug/:variant?";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:1:{s:9:"localeUrl";a:1:{s:2:"en";s:24:"/product/:slug/:variant?";}}s:7:"product";a:2:{s:7:"product";s:5:":slug";s:7:"variant";s:5:":slug";}s:14:"wishlistButton";a:0:{}}}

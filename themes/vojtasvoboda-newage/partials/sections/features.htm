@@ -1,0 +1,39 @@
+<section id="features" class="features">
+    <div class="container">
+        <div class="section-heading text-center">
+            <h2>{{ this.theme.features_headline | raw }}</h2>
+            <p class="text-muted">{{ this.theme.features_subheadline }}</p>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 my-auto">
+                <div class="device-container">
+                    <div class="device-mockup iphone6_plus portrait white">
+                        <div class="device">
+                            <div class="screen">
+                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                {% if this.theme.features_img %}
+                                <img src="{{ this.theme.features_img.getThumb(621, 1104, 'crop') }}" class="img-fluid" alt="{{ this.theme.site_title }} features" />
+                                {% else %}
+                                <img src="{{ 'assets/img/demo-screen-1.jpg' | theme }}" class="img-fluid" alt="{{ this.theme.site_title }} features" />
+                                {% endif %}
+                            </div>
+                            <!-- // You can hook the "home button" to some JavaScript events or just remove it
+                            <div class="button"></div>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 my-auto">
+                <div class="container-fluid">
+                    {% if this.theme.features_list %}
+                        {% partial 'features/items' %}
+                    {% else %}
+                        {% partial 'features/dummy' %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,29 @@
+title = "Product"
+url = "/product/:slug/:variant?"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/product/:slug/:variant?"
+
+[product]
+product = ":slug"
+variant = ":slug"
+
+[wishlistButton]
+==
+{% component 'product' %}
+
+{% put styles %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css">
+{% endput %}
+{% put scripts %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-fancybox="product"]').fancybox({
+                loop: true
+            });
+        })
+    </script>
+{% endput %}

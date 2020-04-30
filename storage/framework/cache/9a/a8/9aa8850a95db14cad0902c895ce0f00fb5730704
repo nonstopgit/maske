@@ -1,0 +1,9 @@
+1588227251a:1:{s:27:"product/belowcartbutton.htm";a:5:{s:8:"fileName";s:27:"product/belowcartbutton.htm";s:7:"content";s:126:"<div class="mt-4">
+    {% component 'wishlistButton'
+        product=item.product_id
+        variant=item.variant_id %}
+</div>";s:5:"mtime";i:1587113586;s:6:"markup";s:126:"<div class="mt-4">
+    {% component 'wishlistButton'
+        product=item.product_id
+        variant=item.variant_id %}
+</div>";s:4:"code";N;}}

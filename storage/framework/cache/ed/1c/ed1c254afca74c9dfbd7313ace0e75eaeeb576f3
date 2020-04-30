@@ -1,0 +1,12 @@
+1588227238a:1:{s:13:"wishlists.htm";a:11:{s:8:"fileName";s:13:"wishlists.htm";s:7:"content";s:175:"title = "Wishlists"
+url = "/wishlists"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[de] = "/wunschlisten"
+
+[wishlists]
+showShipping = 1
+==
+{% component 'wishlists' %}";s:5:"mtime";i:1587113586;s:6:"markup";s:27:"{% component 'wishlists' %}";s:4:"code";N;s:5:"title";s:9:"Wishlists";s:3:"url";s:10:"/wishlists";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:1:{s:9:"localeUrl";a:1:{s:2:"de";s:13:"/wunschlisten";}}s:9:"wishlists";a:1:{s:12:"showShipping";s:1:"1";}}}

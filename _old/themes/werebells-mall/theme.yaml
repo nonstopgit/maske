@@ -1,0 +1,12 @@
+name: weRebels
+description: 'Modified OFFLINE GmbH Mall theme'
+author: weRebels
+homepage: 'https://werebels.com'
+code: oc-werebels-theme
+require:
+    - Rainlab.Translate
+    - Rainlab.Pages
+    - Rainlab.User
+    - Rainlab.Location
+    - OFFLINE.SiteSearch
+    - OFFLINE.Mall

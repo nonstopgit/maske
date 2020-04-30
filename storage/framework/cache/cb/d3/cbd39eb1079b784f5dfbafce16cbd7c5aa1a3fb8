@@ -1,0 +1,1 @@
+9999999999a:11:{s:2:"id";i:2;s:4:"code";s:3:"EUR";s:6:"symbol";s:3:"€";s:4:"rate";d:1;s:8:"decimals";i:2;s:6:"format";s:59:"{{ price|number_format(2, ".", ",") }}{{ currency.symbol }}";s:10:"sort_order";i:1;s:10:"is_default";b:1;s:10:"created_at";s:19:"2020-04-17 08:54:10";s:10:"updated_at";s:19:"2020-04-17 09:21:46";s:8:"rounding";N;}

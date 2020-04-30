@@ -1,0 +1,44 @@
+1588227237a:1:{s:12:"category.htm";a:12:{s:8:"fileName";s:12:"category.htm";s:7:"content";s:620:"title = "Category"
+url = "/category/:slug*"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/category/:slug*"
+
+[products]
+category = ":slug"
+setPageTitle = 1
+includeVariants = 1
+includeChildren = 1
+perPage = 9
+
+[productsFilter]
+category = ":slug"
+showPriceFilter = 1
+showOnSaleFilter = 1
+showBrandFilter = 1
+includeChildren = 1
+includeVariants = 1
+includeSliderAssets = 1
+==
+<div class="flex">
+    <div class="w-1/4">
+        {% component 'productsFilter' %}
+    </div>
+    <div class="w-3/4">
+        <h2 class="pl-4">{{ products.category.name }}</h2>
+
+        {% component 'products' %}
+    </div>
+</div>
+";s:5:"mtime";i:1587113586;s:6:"markup";s:231:"<div class="flex">
+    <div class="w-1/4">
+        {% component 'productsFilter' %}
+    </div>
+    <div class="w-3/4">
+        <h2 class="pl-4">{{ products.category.name }}</h2>
+
+        {% component 'products' %}
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:8:"Category";s:3:"url";s:16:"/category/:slug*";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:1:{s:9:"localeUrl";a:1:{s:2:"en";s:16:"/category/:slug*";}}s:8:"products";a:5:{s:8:"category";s:5:":slug";s:12:"setPageTitle";s:1:"1";s:15:"includeVariants";s:1:"1";s:15:"includeChildren";s:1:"1";s:7:"perPage";s:1:"9";}s:14:"productsFilter";a:7:{s:8:"category";s:5:":slug";s:15:"showPriceFilter";s:1:"1";s:16:"showOnSaleFilter";s:1:"1";s:15:"showBrandFilter";s:1:"1";s:15:"includeChildren";s:1:"1";s:15:"includeVariants";s:1:"1";s:19:"includeSliderAssets";s:1:"1";}}}

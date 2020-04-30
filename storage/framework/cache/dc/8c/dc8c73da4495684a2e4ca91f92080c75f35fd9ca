@@ -1,0 +1,13 @@
+1588227247a:1:{s:24:"localepicker/default.htm";a:5:{s:8:"fileName";s:24:"localepicker/default.htm";s:7:"content";s:287:"{{ form_open() }}
+<select name="locale" data-request="localePicker::onSwitchLocale" class="mall-selectbox-sm">
+    {% for code, name in locales %}
+        <option value="{{ code }}" {{ code == activeLocale ? 'selected' }}>{{ name }}</option>
+    {% endfor %}
+</select>
+{{ form_close() }}";s:5:"mtime";i:1587113586;s:6:"markup";s:287:"{{ form_open() }}
+<select name="locale" data-request="localePicker::onSwitchLocale" class="mall-selectbox-sm">
+    {% for code, name in locales %}
+        <option value="{{ code }}" {{ code == activeLocale ? 'selected' }}>{{ name }}</option>
+    {% endfor %}
+</select>
+{{ form_close() }}";s:4:"code";N;}}

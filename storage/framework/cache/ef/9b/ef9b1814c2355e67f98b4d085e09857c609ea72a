@@ -1,0 +1,15 @@
+1588227237a:1:{s:9:"index.htm";a:11:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:221:"title = "Homepage"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/"
+
+[product]
+product = 1
+variant = ":slug"
+redirectOnPropertyChange = 0
+currentVariantReviewsOnly = 0
+==
+{% component 'product' %}";s:5:"mtime";i:1588138764;s:6:"markup";s:25:"{% component 'product' %}";s:4:"code";N;s:5:"title";s:8:"Homepage";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:1:{s:9:"localeUrl";a:1:{s:2:"en";s:1:"/";}}s:7:"product";a:4:{s:7:"product";s:1:"1";s:7:"variant";s:5:":slug";s:24:"redirectOnPropertyChange";s:1:"0";s:25:"currentVariantReviewsOnly";s:1:"0";}}}

@@ -1,0 +1,13 @@
+1588227237a:1:{s:13:"myaccount.htm";a:11:{s:8:"fileName";s:13:"myaccount.htm";s:7:"content";s:187:"title = "Account"
+url = "/account/:page?"
+layout = "default"
+is_hidden = 0
+
+[session]
+security = "user"
+redirect = "login"
+
+[myAccount]
+page = "{{ :page }}"
+==
+{% component 'myAccount' %}";s:5:"mtime";i:1587113586;s:6:"markup";s:27:"{% component 'myAccount' %}";s:4:"code";N;s:5:"title";s:7:"Account";s:3:"url";s:15:"/account/:page?";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"session";a:2:{s:8:"security";s:4:"user";s:8:"redirect";s:5:"login";}s:9:"myAccount";a:1:{s:4:"page";s:11:"{{ :page }}";}}}

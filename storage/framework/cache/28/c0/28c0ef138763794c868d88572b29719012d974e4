@@ -1,0 +1,21 @@
+1588169655a:1:{s:27:"mallPDF/order/discounts.htm";a:5:{s:8:"fileName";s:27:"mallPDF/order/discounts.htm";s:7:"content";s:318:"{% for entry in discounts %}
+    <tr class="orderdiscount">
+        <td colspan="3">
+            {{ 'offline.mall::lang.common.discount' | trans }}:
+            {{ entry.discount.name }}
+        </td>
+        <td style="text-align: right">
+            {{ entry.savings_formatted }}
+        </td>
+    </tr>
+{% endfor %}";s:5:"mtime";i:1587113586;s:6:"markup";s:318:"{% for entry in discounts %}
+    <tr class="orderdiscount">
+        <td colspan="3">
+            {{ 'offline.mall::lang.common.discount' | trans }}:
+            {{ entry.discount.name }}
+        </td>
+        <td style="text-align: right">
+            {{ entry.savings_formatted }}
+        </td>
+    </tr>
+{% endfor %}";s:4:"code";N;}}

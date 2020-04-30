@@ -1,0 +1,12 @@
+name: 'Corona Maska'
+description: 'Modified Offline Mall theme'
+author: nonstop.si
+homepage: 'https://nonstop.si'
+code: oc-maska-mall
+require:
+    - Rainlab.Translate
+    - Rainlab.Pages
+    - Rainlab.User
+    - Rainlab.Location
+    - OFFLINE.SiteSearch
+    - OFFLINE.Mall

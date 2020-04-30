@@ -1,0 +1,15 @@
+1588227237a:1:{s:8:"cart.htm";a:11:{s:8:"fileName";s:8:"cart.htm";s:7:"content";s:217:"title = "Cart"
+url = "/cart"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/cart"
+
+[cart]
+showDiscountApplier = 0
+showTaxes = 1
+showShipping = 1
+showProceedToCheckoutButton = 1
+==
+{% component 'cart' %}";s:5:"mtime";i:1588157447;s:6:"markup";s:22:"{% component 'cart' %}";s:4:"code";N;s:5:"title";s:4:"Cart";s:3:"url";s:5:"/cart";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:1:{s:9:"localeUrl";a:1:{s:2:"en";s:5:"/cart";}}s:4:"cart";a:4:{s:19:"showDiscountApplier";s:1:"0";s:9:"showTaxes";s:1:"1";s:12:"showShipping";s:1:"1";s:27:"showProceedToCheckoutButton";s:1:"1";}}}

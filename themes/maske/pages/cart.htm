@@ -1,0 +1,15 @@
+title = "Cart"
+url = "/cart"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/cart"
+
+[cart]
+showDiscountApplier = 0
+showTaxes = 1
+showShipping = 1
+showProceedToCheckoutButton = 1
+==
+{% component 'cart' %}
