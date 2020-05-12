@@ -31,7 +31,7 @@ return [
     'discount.placeholder' => 'Vnesite kodo za popust',
     'discount.apply' => 'Dodaj kodo',
     'checkout.begin' => 'Na blagajno',
-    'signup.signup' => 'Registriraj nov račun',
+    'signup.signup' => 'Za nakup registriraj nov račun',
     'signup.signin' => 'Vpis z obstoječim računom',
     'signup.different_address' => 'Uporabi drug naslov za dostavo',
     'form.email' => 'E-pošta',
