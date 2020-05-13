@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="sl">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport"
@@ -14,18 +14,18 @@
 
 <h1>Rockstock d.o.o.</h1>
 <p>
-    Breg pri Borovnici 56 b<br>
-    1353 Borovnica<br>
-    Slovenia<br><br>
-    e-mail: rockstock@siol.net<br>
-    GSM: +386 (0)41 674 500<br>
+    Breg pri Borovnici 56 b, 1353 Borovnica, Slovenia<br>
+    e-mail: rockstock@siol.net, GSM: +386 (0)41 674 500<br>
+    ID DDV/VAT: SI52640230, Maticna št./Reg. Number: 1196251<br>
 </p>
 
 <br>
 
-<p>{{ 'pdf_order.hi'|_ }} {{ order.customer.firstname }}</p>
+<h2><strong>Racun st. {{order.invoice_number}}</strong></h2>
 
-<p>{{ 'pdf_order.thank_you_invoice'|_ }}Thank you very much for your order. This is your invoice for the following items:</p>
+<p>Pozdravljen/a {{ order.customer.firstname }}!</p>
+
+<p>Zahvaljujemo se vam za narocilo. To je racun za naslednje artikle:</p>
 
 {% partial 'mallPDF/order/table' products=order.products %}
 
