@@ -24,7 +24,9 @@
 
 <p>Pozdravljen/a {{ order.customer.firstname }}!</p>
 
-<p>Zahvaljujemo se vam za narocilo. Spodaj je spisek naročenih artiklov:</p>
+<p>Zahvaljujemo se vam za narocilo in posiljamo potrditev. Po prejetem placilu na nas racun vam bomo poslali pošiljko.<br>
+    Dobavni rok je 1-2 delovna dneva.<br>
+    Hvala</p>
 
 {% partial 'mallPDF/order/table' products=order.products %}
 
