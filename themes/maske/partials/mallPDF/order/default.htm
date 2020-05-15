@@ -22,11 +22,9 @@
 
 <br>
 
-<h2><strong>Racun st. {{order.invoice_number}}</strong></h2>
-
 <p>Pozdravljen/a {{ order.customer.firstname }}!</p>
 
-<p>Zahvaljujemo se vam za narocilo. To je racun za naslednje artikle:</p>
+<p>Zahvaljujemo se vam za narocilo. Spodaj je spisek naročenih artiklov:</p>
 
 {% partial 'mallPDF/order/table' products=order.products %}
 
