@@ -2,6 +2,7 @@
 *.log
 *.psd
 *.PSD
+storage/*
 storage/cms/disabled.json
 storage/cms/cache/*
 storage/framework/classes.php
