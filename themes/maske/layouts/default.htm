@@ -56,7 +56,10 @@ forceUrl = 1
 {% endflash %}
 
 <style>
-    .mall-product {
+    main, footer {
+        clear: both;
+    }
+    .mall-product, .mall-signup {
         display: block;
     }
     .mall-product__info {
@@ -72,11 +75,21 @@ forceUrl = 1
         clear: both;
         margin-bottom: 2rem;
     }
+    .mall-product {
+        display: block;
+    }
+    .mall-signup__signin, .mall-signup__signup {
+        width: 100%;
+        float: left;
+        display: block;
+        clear: both;
+        margin-bottom: 2rem;
+    }
     @media (min-width:576px) {
 
     }
     @media (min-width:768px) {
-        .mall-product {
+        .mall-product, {
             display: flex;
         }
         .mall-product__info {
@@ -93,7 +106,9 @@ forceUrl = 1
         }
     }
     @media (min-width:992px) {
-
+        .mall-signup {
+            display: flex;
+        }
     }
     @media (min-width:1200px) {
 
